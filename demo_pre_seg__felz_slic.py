@@ -31,7 +31,7 @@ def press_wasdqe_to_adjust_parameter_of_felz(img):
             wait_time = 100
 
         key = cv2.waitKey(wait_time)
-        break
+        # break
     cv2.imwrite('tiger_felz.jpg', show * 255)
 
 
